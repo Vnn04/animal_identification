@@ -41,6 +41,9 @@ body {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 50px;
+    border: 5px solid #ccc; /* Thay đổi đường viền và màu sắc nếu cần thiết */
+    border-radius: 20px; /* Bo tròn viền */
 }
 
 .container__main-choose-image-button {
@@ -75,3 +78,46 @@ body {
 .container__main-right-button:hover {
     background-color: #0077b6; /* Màu khi hover */
 }
+/* sắp xếp khung vào vị trí hợp lí*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container__main-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+}
+.Example {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.example__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.example__images {
+    display: flex;
+    flex-direction: example;
+    align-items: center;
+}
+/* chỉnh sửa độ lớn của ảnh*/
+.example__images img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/fonts/Roboto.css">
 </head>
 
-<body>
+<body class="body">
     <div class="app">
 
         <!--header cua app-->
@@ -43,7 +43,21 @@
                     <button id="leftButton" class="container__main-left-button">Clear</button>
                     <button id="rightButton" class="container__main-right-button">Submit</button>
                 </div>
+                <div class="container__main-image-container">
+                    <!-- Đây là nơi để hiển thị ảnh khi ấn nút choose image -->
+                    <img src="" alt="Detected objects image" id="detectedImage">
+                </div>
             </main>
+        </div>
+        <div class="Example">
+            <h2 class="example__title">Example</h2>
+            <div class="example__images">
+                <img src="https://toigingiuvedep.vn/wp-content/uploads/2022/06/anh-cho-shiba.jpg" alt="Image 1">
+                <img src="https://img4.thuthuatphanmem.vn/uploads/2019/11/03/hinh-anh-con-khi-con-dep-nhat_102935055.jpg" alt="Image 2">
+                <img src="https://haycafe.vn/wp-content/uploads/2021/12/Hinh-anh-con-ca-dep-an-tuong-nhat.jpg" alt="Image 3">
+                <img src="https://i.pinimg.com/originals/93/ab/87/93ab878b32ee380549f9bd20a3ca5cea.jpg" alt="Image 4">
+                <img src="https://sudospaces.com/gaocung-com/2020/12/bo-canh-cam-an-gi-2.jpg" alt="Image 5">
+            </div>
         </div>
 
         <!-- footer cua app -->
@@ -51,6 +65,7 @@
             <p>&copy; 2024 Animal Recognition. All rights reserved.</p>
         </footer>
     </div>
+
 </body>
 
 </html>

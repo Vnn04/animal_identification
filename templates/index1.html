@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %} 
+{% block contents %} 
+
+<!--container cua app-->
+<div class="container">
+    <main class="container__main">
+        <div class="container__main-controls">
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <label for="imageInput" class="container__main-choose-image-button btn btn-primary">Choose Image</label>
+            <button class="container__main-left-button btn btn-danger">Clear</button>
+            <button class="container__main-right-button btn btn-success">Submit</button>
+        </div>
+    </main>
+</div>
+<!-- footer cua app -->
+<footer class="footer">
+    <p>&copy; 2024 Animal Recognition. All rights reserved.</p>
+</footer>
+
+{% endblock %}
